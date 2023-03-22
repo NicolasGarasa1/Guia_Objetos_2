@@ -1,0 +1,7 @@
+Cuenta Bancaria[Id:0] Nuevo Cliente[Id:0. Nombre:"Nicolas"]                                                                                           
+Nueva Cuenta Bancaria[Id:0. Balance:10000.0]. Cliente[Id:0. Nombre:"Nicolas"]                                                                         
+Cuenta Bancaria[Id:0] Extraccion:100.0. Nuevo Balance:9900.0.                                                                                         
+Cuenta Bancaria[Id:0] Deposito:50.0. Nuevo Balance:9950.0.                                                                                            
+Nueva Cuenta Bancaria[Id:1. Balance:0.0]. Cliente[]                                                                                                   
+Cuenta Bancaria[Id:1] Deposito:5000.0. Nuevo Balance:5000.0.                                                                                          
+Cuenta Bancaria[Id:1] Nuevo Cliente[Id:0. Nombre:"Nicolas"]                                                                                           
