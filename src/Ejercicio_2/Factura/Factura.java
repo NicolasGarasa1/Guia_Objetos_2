@@ -4,7 +4,6 @@ import java.util.UUID;
 import java.time.LocalDate;
 import Ejercicio_2.Cliente.Cliente;
 import Ejercicio_2.Items.Item_Venta;
-
 public class Factura {
     // ATRIBUTOS
     private String Identificador;

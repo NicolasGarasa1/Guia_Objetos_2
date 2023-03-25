@@ -12,18 +12,18 @@ public class Libro {
 
     // METODOS
     public void MostrarInformacion(){
-        if (Autores.size()==1){
+        if (getAutores().size()==1){
             System.out.print("\n Libro[Titulo: \""+getTitulo()+"\". Precio: "+getPrecio()+". Stock: "+getStock()+". Autor: \""+getAutores().get(0).getNombre()+" "+getAutores().get(0).getApellido()+"\".");
         }
         else{
             System.out.print("\n Libro[Titulo: \""+getTitulo()+"\". Precio: "+getPrecio()+". Stock: "+getStock()+".\n Autores:");
-            for(int i=0 ; i<Autores.size() ; i++){
+            for(int i=0 ; i<getAutores().size() ; i++){
                 System.out.print("\n Nombre: \""+getAutores().get(i).getNombre()+" "+getAutores().get(i).getApellido()+"\".");
             }
         }
     }
     public void Agregar_Autor(Autor _Autor){
-        Autores.add(_Autor);
+        getAutores().add(_Autor);
     }
 
     // CONSTRUCTORES
@@ -35,7 +35,7 @@ public class Libro {
         setPrecio(_Precio);
         setStock(_Stock);
         setAutores(new ArrayList<>());
-        Autores.add(_Autor);
+        getAutores().add(_Autor);
     }
     public Libro(String _Titulo, double _Precio, int _Stock){
         setTitulo(_Titulo);
